@@ -1,5 +1,8 @@
 name: Excavator
 
+# Updates the manifests to new releases (checkver and autoupdate in each
+# manifest) and pushes the change.
+
 on:
   workflow_dispatch:
   schedule:
