@@ -7,6 +7,7 @@ A [Scoop](https://scoop.sh) bucket for these apps:
 | App | Description |
 |---|---|
 | [FlexFlyout](https://github.com/akivajp/flexflyout) | A media flyout for Windows 11: cover art, title, position, playback controls and volume, sized and placed where you want |
+| [nubmiddle](https://github.com/akivajp/nubmiddle) | A tray tool that gives the middle button of a TrackPoint-style pointing stick both middle click and scrolling |
 | [rigtop](https://github.com/akivajp/rigtop) | A system monitor (terminal UI and native GUI) with storage health, GPU usage and many hosts over SSH |
 
 ## Install
@@ -14,6 +15,7 @@ A [Scoop](https://scoop.sh) bucket for these apps:
 ```powershell
 scoop bucket add akivajp https://github.com/akivajp/scoop-bucket
 scoop install akivajp/flexflyout
+scoop install akivajp/nubmiddle
 scoop install akivajp/rigtop
 ```
 
